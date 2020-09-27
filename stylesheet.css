@@ -1,0 +1,304 @@
+/* bagian umum di sini */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 1.618em;
+    background: #e5f7fa;
+    color: #424242;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+}
+  
+
+
+/* -------------------------HEADER----------------------------------*/
+
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    color: #fff;
+    background: rgba(34,49,52,.9);
+    height: 60px;
+}
+
+header .header {
+    width: 100%;
+    top: 0;
+}
+
+header .h-logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+header .header-left {
+    float: left;
+    padding: 0 0 0 30px;
+}
+
+header .header-right {
+    float:right;
+    padding: 0px 0px 0px 30px;
+}
+header .h-list{
+    display: block;
+    color: #fff;
+} 
+header .tombol-header li {
+    float: left;
+    color: white;
+    display: block;
+    padding: 0px 30px 0px 30px;
+    letter-spacing: 5px;
+}
+
+.h-list li:hover{
+    opacity: 1;
+    background: rgba(148, 165, 168);
+    height: 45px;
+}
+
+
+/* ------------------------------------MAIN (ISI)----------------------------*/
+
+
+/*--------------------------------------JUDUL           */
+.m-judul {
+    background-image: url(https://www.terarecon.com/hubfs/artificial%20intelligence%20background.png);
+    height: 500px;
+    padding-top: 0px;
+    color: #fff;
+    border-radius: 20px;
+    width: 1300px;
+    margin: 0px 20px;
+    background-size: cover;
+    text-align: center;
+}
+.m-judul h1 {
+    opacity: 1;
+    font-size: 100px;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+
+.m-judul p{
+    font-size: 20px;
+    margin: 20px 20px;
+    color: black;
+}
+
+.m-judul h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.linkedin {
+    background-color: #53c7fd;
+
+}
+
+.facebook {
+    background-color:  #3b5998;
+    margin-right: 10px;
+}
+
+.instagram {
+    background-color: crimson;
+}
+
+.tombol-atas a{
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+.tombol-atas img {
+    height: 30px;
+    width: auto;
+    padding: 10px 5px;
+}
+
+.tombol-atas p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tombol-atas h2 {
+    position: relative;
+    font-size: 15px;
+    float: right;
+}
+
+/*-------------------------------------------ISI         */
+.m-isi {
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 1300px;
+    margin: 20px 20px;
+
+}
+.m-isi img {
+    height: 300px;
+    width: auto;
+    float:left;
+    margin: 20px;
+    border-radius: 15px; 
+}
+
+.m-isi h1{
+    float: center;
+    padding: 10px 20px;
+}
+/*--------------------------------------Karya          */
+.karya {
+    height: 650px;
+    margin: 10px;
+  /*  background-color: #3b5998;*/
+    text-align: center;
+    padding: 20px;
+}
+
+.karya h1{
+    height: 10%;
+ /* background-color: #fff; */
+
+}
+
+.base1 {
+    height: 280px;
+    padding: 0px 40px 0 40px;
+    background-color: rgba(131, 219, 109, 0.6);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.base1 h2{
+    padding: 5px;
+}
+.base1 .child {
+    height: 30%;
+    float: left;
+    width: 20%;
+    background-color: rgba(86, 107, 109, 0.6);
+    border-radius: 10px;
+    margin: 0 30px 0 30px;
+    color: #fff;
+}
+
+.base1 .child:hover{
+    opacity: 1;
+}
+
+.base2 {
+    height: 280px;
+    background-color: rgba(131, 219, 109, 0.6);
+    border-radius: 30px;
+    margin: 0 395px 30px 395px;
+}
+.base2 h2{
+    height: 10%;
+ /* background-color: #3b5998; */   
+    padding-top: 10px;
+}
+
+.base2 .child {
+    height: 30%;
+    float: left;
+    width: 20%;
+    background-color: rgba(86, 107, 109, 0.6);
+    border-radius: 10px;
+    margin: 0 33px 0 33px;
+    color: #fff;
+}
+
+.karya img{
+    height: 130px;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+}
+/*--------------------------------------Kontak      */
+.garis-h2 {
+    border-bottom: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.m-kontak {
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.m-kontak p{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+input, textarea {
+    width: 200px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #dee7ec;
+}
+
+.submit:hover {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+/* ----------------------------FOOTER---------------------------------------*/
+
+
+.footer {
+    background-color: #575050;
+    height: 100px;
+    padding: 20px 20px;
+}
+
+.f-logo {
+    color: #fff;
+}
+
+.f-list {
+    float: right;
+    color: #fff;
+}
+
